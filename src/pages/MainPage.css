@@ -1,0 +1,15 @@
+.titlePage {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #ffe7ff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
