@@ -1,0 +1,17 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  color: #ffffff;
+  background-color: #433b5e;
+  padding: 10px;
+}
+
+.formInput {
+  background-color: #1e213d;
+  padding: 15px;
+  color: white;
+  border: 0;
+}

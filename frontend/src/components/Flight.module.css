@@ -1,0 +1,85 @@
+.flight {
+  display: flex;
+  gap: 20px;
+
+  width: 98%;
+  background-color: #1e213d;
+  color: white;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.flightInformation {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  gap: 20px;
+}
+
+.flightAirports {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.flightDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 70px;
+}
+
+.flightCountry {
+  margin: 0;
+  color: #fab0dc;
+  font-weight: lighter;
+}
+
+.flightAirportName {
+  margin: 0;
+}
+
+.flightArrow {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(93%) sepia(61%) saturate(1457%)
+    hue-rotate(280deg) brightness(104%) contrast(99%);
+}
+
+.flightSchedule {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.flightScheduleTitle {
+  grid-column: 1 / span 2;
+  color: #fab0dc;
+  margin: 0;
+}
+
+.flightDate,
+.flightTime {
+  margin: 0;
+}
+
+.flightPrice {
+  color: #fab0dc;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.flightSeats {
+  color: #fab0dc;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.btnSubmit {
+  align-self: center;
+}

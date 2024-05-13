@@ -1,0 +1,11 @@
+.formError {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  background-color: #35153c;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}

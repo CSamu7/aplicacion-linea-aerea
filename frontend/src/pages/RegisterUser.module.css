@@ -1,0 +1,19 @@
+.mainRegisterUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listRegisterUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formSubmit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+  align-self: center;
+}

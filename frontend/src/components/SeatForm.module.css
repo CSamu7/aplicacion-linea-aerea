@@ -1,0 +1,14 @@
+.btnAdd {
+  background-color: #433b5e;
+  padding: 15px;
+  color: white;
+  border: 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  height: 60px;
+}
+
+.btnAdd:hover {
+  transition: 0.5s;
+  background-color: #c3657b;
+}

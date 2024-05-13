@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: clamp(700px, 95vw, 1200px);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.userInformationTitle {
+  color: aliceblue;
+  margin: 0;
+}
+
+.userInformationBox {
+  display: flex;
+  gap: 20px;
+}

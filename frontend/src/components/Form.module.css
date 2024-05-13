@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #99739f;
+  width: 90%;
+}
+
+.formTitle {
+  font-size: 1.2rem;
+  background-color: #1e213d;
+  color: white;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #fab0dc;
+}
