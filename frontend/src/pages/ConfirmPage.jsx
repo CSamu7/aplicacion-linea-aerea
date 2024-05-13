@@ -60,11 +60,10 @@ export default function ConfirmPage() {
     clients.forEach(async (client, index) => {
       const body = JSON.stringify({
         idClient: client,
+        idPlane: flight["detailsPlane"]["idPlane"],
         idReservation: Number(localStorage.getItem("reservation")),
         idSeat: seatsData[index]["id_Asiento"],
       });
-
-      console.log(body);
 
       const request = await fetch("http://localhost:8000/boardingCard", {
         method: "POST",

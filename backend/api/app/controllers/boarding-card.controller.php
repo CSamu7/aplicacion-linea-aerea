@@ -7,7 +7,7 @@ class BoardingCardController
   {
     $data = Flight::request()->data;
 
-    $boardingCard = new BoardingCardModel($data["idClient"], $data["idSeat"], $data["idReservation"]);
+    $boardingCard = new BoardingCardModel($data["idClient"], $data["idSeat"], $data["idReservation"], $data["idPlane"]);
     $result = $boardingCard->postBoardingCard();
 
     echo json_encode($result);
